@@ -1,4 +1,4 @@
-public interface empilhavel {
+public interface empilhavelAula01 {
 
     //Operações principais:
     void empilhar(); //push - Adiciona um elemento no topo da pilha.
