@@ -49,4 +49,4 @@ Durante o semestre de 2025.1, as atividades desenvolvidas,os conteúdos abordado
  git clone https://github.com/gabs-jg/estruturaDeDados.git
 
  ## 📚 Recursos extras:
- [Curso Online de Python - Fundação Bradesco](https://www.ev.org.br/trilhas-de-conhecimento/linguagem-de-programacao-python)
+ <a href="https://www.ev.org.br/trilhas-de-conhecimento/linguagem-de-programacao-python" target="_blank">Curso Online de Python - Fundação Bradesco</a>
