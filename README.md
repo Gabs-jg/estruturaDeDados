@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=4500&pause=900&color=FF79C6&vCenter=true&width=435&lines=%F0%9F%96%A5%EF%B8%8F+Estrutura+de+Dados.;%E2%8C%9B+3%C2%BA+Semestre.;%F0%9F%91%A8%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB+Sistemas+de+Informa%C3%A7%C3%A3o+-+IFBA.)](https://git.io/typing-svg)
 
-> ### Repositório dedicado à disciplina de Estrutura de Dados, ministrada pelo professor Cláudio Rodolo.
+> ### Repositório dedicado à disciplina de Estrutura de Dados, ministrada pelo professor Cláudio Rodolfo.
 
 Durante o semestre de 2025.1, as atividades desenvolvidas,os conteúdos abordados em sala de aula e os códigos implementados serão publicados nesse repositório para fins didáticos.
 
