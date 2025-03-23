@@ -74,6 +74,7 @@ public class PilhaEstaticaAula02 implements EmpilhavelAula01 {
     @Override
     public String imprimir() {
         String aux = "[";
+        //Não usa for each por que não precissa passar por todos os indíces do array.
         for(int i = ponteiroTopo; i>= 0; i--) {
             if(i==0) {
                 aux += dados[i];
