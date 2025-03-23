@@ -1,0 +1,11 @@
+Pilha/Stack
+Empilhavel/Stackable
+
+Interface define comportamento.
+Comportamento = conjunto de operações que algo (classe) deve prover.
+
+Definindo um método:
+- Tipo de retorno
+- Nome
+- Parâmetros de entrada.
+

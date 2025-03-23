@@ -1,0 +1,31 @@
+--------------------------------
+    Conjunto de Estruturas de Dados:
+    --------------------------------
+    C - Create. (Criar);
+    R - Read. (Ler);
+    U - Update. (Atualizar);
+    D - Delete. (Deletar);
+    S - Sort. (Ordenar).
+    ---------------------------------
+
+    TIPOS DE DADOS:
+        - Numéricos(positivos ou negativos):
+            - Inteiros:
+                - unsigned int;
+                - tinyint, smallint;
+                - int;
+                - long, longint, bigint.
+            - Ponto flutuante:
+                - float;
+                - double.
+            - Ponto fixo.
+        - String = " ".
+        - Char = ' '.
+        - Lógico:
+            - boolean (bool).
+        - Matriz unidimensional:
+            - Vetor;
+            - Array.
+        - Ponteiro:
+            - É uma variável que guarda o endereço de um local de memória.
+        - Objeto.
