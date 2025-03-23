@@ -9,14 +9,14 @@ public class Main {
 		pilha.empilhar("Ciência");
 		pilha.empilhar("e");		
 		System.out.println("Espiar:" + pilha.espiar());		
-		//String conteudo = pilha.desempilhar();
+		String conteudo = (String) pilha.desempilhar();
 		pilha.desempilhar();
 		pilha.empilhar("Tecnologia");
 		pilha.empilhar("da");
 		pilha.empilhar("Bahia");		
 		pilha.atualizar("São Paulo");		
 		pilha.empilhar(pilha.desempilhar());
-		//pilha.empilhar(conteudo);
+		pilha.empilhar(conteudo);
 		System.out.println("Pilha="+pilha.imprimir());
     }
 }
