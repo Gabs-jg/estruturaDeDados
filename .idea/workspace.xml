@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa35715-c0ee-4c1b-89b9-9b5784c19899" name="Changes" comment="Incluindo novos códigos">
-      <change afterPath="$PROJECT_DIR$/Aulas/src/PilhaEstaticaInvertidaAula02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aulas/src/PilhaInvertidaPrincipal.java" afterDir="false" />
+    <list default="true" id="0fa35715-c0ee-4c1b-89b9-9b5784c19899" name="Changes" comment="Implementação da pilha invertida">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aulas/src/PilhaEstaticaAula02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/src/PilhaEstaticaAula02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aulas/src/empilhavelAula01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/src/empilhavelAula01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.PilhaEstaticaPrincipalAula02.executor": "Run",
     "Application.PilhaInvertidaPrincipal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -118,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742766795022</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implementação da pilha invertida">
+      <option name="closed" value="true" />
+      <created>1742767600678</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742767600678</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implementação da pilha invertida">
+      <option name="closed" value="true" />
+      <created>1742767620094</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742767620094</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +150,7 @@
     <MESSAGE value="Pasta renomeada" />
     <MESSAGE value="interface renomeada" />
     <MESSAGE value="Incluindo novos códigos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Incluindo novos códigos" />
+    <MESSAGE value="Implementação da pilha invertida" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação da pilha invertida" />
   </component>
 </project>
