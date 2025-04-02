@@ -28,5 +28,4 @@ public class Questao5 {
         System.out.println("O segundo maior valor da lista é: " + segundoMaiorValor + ".");
         sc.close();
      }
-    
 }
