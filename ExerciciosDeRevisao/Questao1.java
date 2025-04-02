@@ -1,7 +1,9 @@
+//1. Crie um algoritmo/fluxograma/programa que declare um array de inteiros e imprima seus elementos.
+
 package ExerciciosDeRevisao;
 import java.util.Scanner;
 
-public class imprimirElementos {
+public class Questao1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite o tamanho do array: ");
