@@ -11,7 +11,7 @@ public class Questao13 {
         int lista2[] = new int[lista1.length];
 
         for(int i=0; i<lista1.length; i++) {
-            System.out.print("Digite o valor da posição " + (i+1) + ": ");
+            System.out.print("Digite o valor da posição " + (i+1) + " da lista: ");
             lista1[i] = sc.nextInt();
         }
 

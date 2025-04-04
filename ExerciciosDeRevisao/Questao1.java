@@ -10,7 +10,7 @@ public class Questao1 {
         int lista[] = new int[sc.nextInt()];
 
         for(int i=0; i<lista.length;  i++) {
-            System.out.print("Digite o valor da posição " + (i+1) + ": ");
+            System.out.print("Digite o valor da posição " + (i+1) + " da lista: ");
             lista[i] = sc.nextInt();
         }
 
