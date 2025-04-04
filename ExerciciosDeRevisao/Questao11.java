@@ -3,7 +3,7 @@
 package ExerciciosDeRevisao;
 import java.util.Scanner;
 
-public class Quetsao11 {
+public class Questao11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Informe o tamanho da lista: ");
