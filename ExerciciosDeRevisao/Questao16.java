@@ -14,7 +14,7 @@ public class Questao16 {
             lista[i] = sc.nextInt();
         }
 
-        System.out.print("Digite um número para descobrir a primeira posição dele na lista: (Se '-1' o número não está na lista) ");
+        System.out.print("Digite um número para descobrir a primeira posição dele na lista: (Se '-1' o número não está na lista): ");
         int num = sc.nextInt();
         boolean naoContem = false;
 
