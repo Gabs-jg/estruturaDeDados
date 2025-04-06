@@ -9,11 +9,15 @@ public class Questao28 {
 
         System.out.print("Informe o tamanho da lista para obter a sequência Fibonacci: ");
         int lista[] = new int[sc.nextInt()];
+        lista[0] = 0;
         int somaFibo = 1;
+        int anteriorFibo = 0;
 
-        for(int i=0; i<lista.length; i++) {
+        for(int i=1; i<lista.length; i++) {
             lista[i] = somaFibo;
-            somaFibo += ((somaFibo+1) + (somaFibo+1));
+            int auxFibo = somaFibo;
+            somaFibo = somaFibo + anteriorFibo;
+            anteriorFibo = auxFibo;
         }
 
         System.out.print("Lista com os primeiros " + lista.length + " números da sequência de Fibonnaci: ");
