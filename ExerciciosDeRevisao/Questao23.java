@@ -28,7 +28,7 @@ public class Questao23 {
         }
 
         for(int i=0; i<lista2.length; i++) {
-            lista3[i+(lista2.length)] = lista2[i];
+            lista3[i+(lista1.length)] = lista2[i];
         }
 
         System.out.print("Lista 1: [");
