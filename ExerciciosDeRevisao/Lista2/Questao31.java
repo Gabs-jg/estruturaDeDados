@@ -1,6 +1,6 @@
 //31. Crie um algoritmo/fluxograma/programa que rotacione os elementos de um array para a esquerda.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao31 {

@@ -1,6 +1,6 @@
 //23. Crie um algoritmo/fluxograma/programa que crie um novo array a partir de outros dois arrays.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao23 {

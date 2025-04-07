@@ -1,6 +1,6 @@
 //2. Crie um algoritmo/fluxograma/programa que preencha um array com os quadrados dos números de 1 a N, onde N é um valor informado pelo usuário.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao2 {

@@ -1,5 +1,5 @@
 //9. Crie um algoritmo/fluxograma/programa que conte e imprima o número de elementos pares em um array.
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao9 {

@@ -1,6 +1,6 @@
 //26. Crie um algoritmo/fluxograma/programa que gere um array com os N primeiros números primos.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao26 {

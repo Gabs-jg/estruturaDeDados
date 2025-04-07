@@ -1,6 +1,6 @@
 //1. Crie um algoritmo/fluxograma/programa que declare um array de inteiros e imprima seus elementos.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao1 {

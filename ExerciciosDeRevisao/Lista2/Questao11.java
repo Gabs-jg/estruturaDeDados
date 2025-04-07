@@ -1,6 +1,6 @@
 //11. Crie um algoritmo/fluxograma/programa que encontre e escreva a média dos elementos de um array.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao11 {

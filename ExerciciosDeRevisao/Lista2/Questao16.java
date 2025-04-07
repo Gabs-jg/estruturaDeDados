@@ -1,6 +1,6 @@
 //16. Crie um algoritmo/fluxograma/programa que encontre e imprima o índice da primeira ocorrência de um elemento específico em um array. Caso ele não esteja deve-se imprimir -1.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao16 {

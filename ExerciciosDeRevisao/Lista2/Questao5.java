@@ -1,5 +1,5 @@
 //5. Crie um algoritmo/fluxograma/programa que encontre o segundo maior elemento em um array.
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao5 {

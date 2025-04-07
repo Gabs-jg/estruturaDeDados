@@ -1,6 +1,6 @@
 //27. Crie um algoritmo/fluxograma/programa que preencha um array com os números perfeitos menores que N.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao27 {

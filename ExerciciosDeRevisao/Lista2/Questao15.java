@@ -1,5 +1,5 @@
 //15. Crie um algoritmo/fluxograma/programa que preencha um array com números aleatórios e, em seguida, ordene esses números de forma decrescente.
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 
 import java.util.Scanner;
 import java.util.Arrays;

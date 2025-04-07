@@ -1,6 +1,6 @@
 //14. Crie um algoritmo/fluxograma/programa que ordene os elementos de um array em ordem crescente.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Arrays;
 import java.util.Scanner;
 

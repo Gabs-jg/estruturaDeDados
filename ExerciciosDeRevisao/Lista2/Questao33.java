@@ -1,6 +1,6 @@
 //33. Crie um algoritmo/fluxograma/programa que adicione um novo elemento ao final de um array. Imprima o antes e o depois.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao33 {

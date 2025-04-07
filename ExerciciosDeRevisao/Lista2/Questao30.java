@@ -1,6 +1,6 @@
 //30. Crie um algoritmo/fluxograma/programa que remova os elementos repetidos de um array.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao30 {

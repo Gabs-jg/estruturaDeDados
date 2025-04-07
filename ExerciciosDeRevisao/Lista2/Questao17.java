@@ -1,6 +1,6 @@
 //17. Crie um algoritmo/fluxograma/programa que verifique se dois arrays são iguais.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao17 {

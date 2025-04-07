@@ -1,5 +1,5 @@
 //12. Crie um algoritmo/fluxograma/programa que verifique e informe se um determinado valor está presente em um array.
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao12 {

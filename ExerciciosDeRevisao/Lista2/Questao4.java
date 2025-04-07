@@ -1,5 +1,5 @@
 //4. Crie um algoritmo/fluxograma/programa que encontre o maior e o menor número em um array e imprima-os na tela.
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao4 {

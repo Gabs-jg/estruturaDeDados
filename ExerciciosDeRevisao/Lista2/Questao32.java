@@ -1,6 +1,6 @@
 //32. Crie um algoritmo/fluxograma/programa que implemente uma busca binária em um array ordenado.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao32 {

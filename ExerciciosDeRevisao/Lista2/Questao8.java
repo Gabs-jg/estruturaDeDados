@@ -1,6 +1,6 @@
 //8. Crie um algoritmo/fluxograma/programa que multiplique cada elemento de um array por um valor específico.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 
 import java.util.Scanner;
 

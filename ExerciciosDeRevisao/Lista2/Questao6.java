@@ -1,5 +1,5 @@
 //6. Crie um algoritmo/fluxograma/programa que calcule e mostre a soma de todos os elementos em um array.
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao6 {

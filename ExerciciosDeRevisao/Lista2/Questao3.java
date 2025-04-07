@@ -1,5 +1,5 @@
 //3. Crie um algoritmo/fluxograma/programa que preencha um array com os números em ordem inversa.
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao3 {

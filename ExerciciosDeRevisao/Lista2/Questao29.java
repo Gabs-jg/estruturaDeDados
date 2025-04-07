@@ -1,6 +1,6 @@
 //29. Crie um algoritmo/fluxograma/programa que preencha um array com os N primeiros termos da sequência de Lucas.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao29 {

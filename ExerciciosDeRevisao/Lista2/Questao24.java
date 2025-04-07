@@ -1,6 +1,6 @@
 //24. Crie um algoritmo/fluxograma/programa que insira um novo elemento em uma posição específica de um array. O usuário deve informar a posição e o elemento.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao24 {

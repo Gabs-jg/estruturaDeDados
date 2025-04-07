@@ -1,6 +1,6 @@
 //20. Crie um algoritmo/fluxograma/programa que remova todas as ocorrências de um texto específico em um array de strings.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao20 {

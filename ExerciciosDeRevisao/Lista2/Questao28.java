@@ -1,6 +1,6 @@
 //28. Crie um algoritmo/fluxograma/programa que preencha um array com os primeiros N números da sequência de Fibonacci.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao28 {

@@ -1,6 +1,6 @@
 //35. Crie um algoritmo/fluxograma/programa que remova um elemento de uma posição específica de um array. Diminuindo o tamanho do array.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao35 {

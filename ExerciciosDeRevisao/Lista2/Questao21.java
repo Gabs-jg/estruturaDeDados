@@ -1,6 +1,6 @@
 //21. Crie um algoritmo/fluxograma/programa que substitua todas as vogais em um array de caracteres por asteriscos.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao21 {

@@ -1,6 +1,6 @@
 //25. Crie um algoritmo/fluxograma/programa que verifique se um array é um palíndromo.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Arrays;
 import java.util.Scanner;
 

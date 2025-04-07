@@ -1,6 +1,6 @@
 //18. Crie um algoritmo/fluxograma/programa que multiplique os elementos de dois arrays e armazene o resultado em um terceiro array.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao18 {

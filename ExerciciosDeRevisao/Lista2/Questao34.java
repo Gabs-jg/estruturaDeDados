@@ -1,6 +1,6 @@
 //34. Crie um algoritmo/fluxograma/programa que insira um elemento em uma posição específica de um array.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao34 {

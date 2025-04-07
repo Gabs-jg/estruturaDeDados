@@ -1,6 +1,6 @@
 //7. Crie um algoritmo/fluxograma/programa que calcule a soma dos elementos em posições pares de um array.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao7 {

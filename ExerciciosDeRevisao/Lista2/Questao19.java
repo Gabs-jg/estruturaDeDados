@@ -1,6 +1,6 @@
 //19. Crie um algoritmo/fluxograma/programa que inicialize um array de strings e depois inverta a ordem dos elementos do array. Imprima o antes e o depois.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao19 {

@@ -1,6 +1,6 @@
 //22. Crie um algoritmo/fluxograma/programa que conte e imprima o número de vogais em um array de caracteres.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao22 {

@@ -1,6 +1,6 @@
 //13. Crie um algoritmo/fluxograma/programa que copie os elementos de um array para outro. Imprima-os para mostrar que estão iguais.
 
-package ExerciciosDeRevisao;
+package ExerciciosDeRevisao.Lista2;
 import java.util.Scanner;
 
 public class Questao13 {
