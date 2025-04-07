@@ -41,10 +41,9 @@ public class Questao32 {
             } else if(lista[meio] < num) {
                 inicio = meio+1;
             } else {
-                fim = meio--;
+                fim = meio-1;
             }
         }
-
         return -1;
     }
 }
