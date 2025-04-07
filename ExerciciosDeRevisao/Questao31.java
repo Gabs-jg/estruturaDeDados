@@ -25,9 +25,13 @@ public class Questao31 {
         }
         System.out.println("]");
 
-        for(int i=0; i<lista.length; i++) {
-            lista[i] = lista[(lista.length-1) - i];
+        int primeiroElemento = lista[0];
+
+        for(int i=0; i<lista.length-1; i++) {
+            lista[i] = lista[i+1];
         }
+
+        lista[lista.length-1] = primeiroElemento;
 
         System.out.print("Lista rotacionada para a esquerda: [");
         for(int i=0; i<lista.length; i++) {
