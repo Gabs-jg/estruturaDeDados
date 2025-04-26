@@ -1,0 +1,13 @@
+Algoritmos de ordenação por troca
+Listas ordenadas
+Busca de dados
+
+Bubble Sort - pior - Compara todos os elementos 
+Selection Sort - menos pior - 
+InsertionSort - melhor de todos - Compara um elemento com o seu vizinho, quando o elemento encontra seu devido lugar os que vem antes desse elemento já se encontra ordenados.
+
+Quando é constante a ordem de complexidade é 1.
+O melhor é os algortimos que rodam n log n.
+log n é mais eficiente que n.
+
+Fórmula Pa: an + a1 * (n/2).

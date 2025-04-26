@@ -16,6 +16,6 @@ public class Questao4 {
             letras[i] = sc.next().charAt(0);
         }
 
-        
+        sc.close();
     }
 }
