@@ -1,3 +1,4 @@
+package Pilhas;
 public class PilhaEstaticaPrincipalAula02 {
     public static void main(String[] args) {
         PilhaEstaticaAula02 pilha = new PilhaEstaticaAula02(7);

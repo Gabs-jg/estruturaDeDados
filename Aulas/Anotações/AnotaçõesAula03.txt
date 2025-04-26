@@ -1,0 +1,24 @@
+Fila (Queue) - Não é útil/interessante para implemenatr algo.
+Fila circular (Circle Queue)
+Fila com dupla terminação (DeQue) Double Ended Queue
+
+Caracteristicas básicas:
+Não é obrigatório ter todo o Crud implementado.
+
+Enfileirar      //C - reate - Enqueue
+Frente          //R - ead - Front
+Atualizar       //U - pdate - Update
+Desenfileirar   //D - elete - Dequeue
+
+Não faz sentido usar for each em filas, o for each é usado quando for iterar todos os dados de um array.
+
+Lixo - Ponteiro inical - Ponteiro final - Lixo
+O que tem depois do ponteiro final e antes do ponteiro inicial é lixo de memória
+
+Os dados adicionados depois vai para depois do fim.
+
+- Fila circular.
+É necessário uma variável 'quantidade' para saber se a fila está cheia
+
+O resto da divisão de um valor menor para um valor maior é sempre o valor menor
+Ex: 5%8 = 5.

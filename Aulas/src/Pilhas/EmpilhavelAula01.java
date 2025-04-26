@@ -1,3 +1,4 @@
+package Pilhas;
 public interface EmpilhavelAula01 {
     //Operações principais:
     void empilhar(Object dado); // "C" push - Adiciona um elemento no topo da pilha.

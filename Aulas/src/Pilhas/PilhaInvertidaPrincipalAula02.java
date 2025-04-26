@@ -1,3 +1,4 @@
+package Pilhas;
 public class PilhaInvertidaPrincipal {
     public static void main(String args[]) {
         EmpilhavelAula01 pilha = new PilhaEstaticaInvertidaAula02(7);

@@ -1,3 +1,4 @@
+package Pilhas;
 public class PilhaEstaticaInvertidaAula02 implements EmpilhavelAula01 {
     //Variaveis de instancia
     private Object[] dados;

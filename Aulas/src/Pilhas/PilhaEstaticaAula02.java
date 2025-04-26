@@ -1,3 +1,4 @@
+package Pilhas;
 public class PilhaEstaticaAula02 implements EmpilhavelAula01 {
 
     //Variáveis de instância

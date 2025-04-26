@@ -15,4 +15,4 @@ fn main() {
     numeros.pop();
 // Verificando o tamanho
     println!("Tamanho do vetor: {}", numeros.len());
-    
+}
