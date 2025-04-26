@@ -1,14 +1,14 @@
-package Filas;
+package Primeira_Unidade.Aulas.Filas;
 
 public class FilaEstaticaAula03 implements EnfileiravelAula03 {
-    
-    //Variáveis de Instância - Boa prática ser private.
-    private Object [] dados;
+
+    // Variáveis de Instância - Boa prática ser private.
+    private Object[] dados;
     private int ponteiroInicio;
     private int ponteiroFim;
 
     public FilaEstaticaAula03() {
-         this(10);
+        this(10);
     }
 
     public FilaEstaticaAula03(int tamanho) {
@@ -19,7 +19,7 @@ public class FilaEstaticaAula03 implements EnfileiravelAula03 {
 
     @Override
     public void enfileirar(Object dado) {
-        if(!estaCheia()) {
+        if (!estaCheia()) {
             ponteiroFim++;
             dados[ponteiroFim] = dado;
         } else {
@@ -30,7 +30,7 @@ public class FilaEstaticaAula03 implements EnfileiravelAula03 {
     @Override
     public Object frente() {
         Object aux = null;
-        if(!estaVazia()) {
+        if (!estaVazia()) {
             aux = dados[ponteiroInicio];
         } else {
             System.out.println("A fila está vazia.");
@@ -40,7 +40,7 @@ public class FilaEstaticaAula03 implements EnfileiravelAula03 {
 
     @Override
     public void atualizarInicio(Object dado) {
-        if(!estaVazia()) {
+        if (!estaVazia()) {
             dados[ponteiroInicio] = dado;
         } else {
             System.err.println("A fila está vazia");
@@ -49,7 +49,7 @@ public class FilaEstaticaAula03 implements EnfileiravelAula03 {
 
     @Override
     public void atualizarFim(Object dado) {
-        if(!estaVazia()) {
+        if (!estaVazia()) {
             dados[ponteiroFim] = dado;
         } else {
             System.err.println("A fila está vazia");
@@ -59,7 +59,7 @@ public class FilaEstaticaAula03 implements EnfileiravelAula03 {
     @Override
     public Object desenfileirar() {
         Object aux = null;
-        if(!estaVazia()) {
+        if (!estaVazia()) {
             aux = dados[ponteiroInicio];
             ponteiroInicio++;
         } else {
@@ -70,19 +70,19 @@ public class FilaEstaticaAula03 implements EnfileiravelAula03 {
 
     @Override
     public boolean estaCheia() {
-        return (ponteiroFim == dados.length -1);
+        return (ponteiroFim == dados.length - 1);
     }
 
     @Override
     public boolean estaVazia() {
-        return (ponteiroFim == ponteiroInicio -1);
+        return (ponteiroFim == ponteiroInicio - 1);
     }
 
     @Override
     public String imprimir() {
         String retorno = "[";
-        for(int i = ponteiroInicio; i<= ponteiroFim; i++) {
-            if(i==ponteiroFim) {
+        for (int i = ponteiroInicio; i <= ponteiroFim; i++) {
+            if (i == ponteiroFim) {
                 retorno += dados[i];
             }
             retorno += dados[i] + ",";

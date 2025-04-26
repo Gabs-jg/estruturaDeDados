@@ -1,9 +1,9 @@
-package Filas;
+package Primeira_Unidade.Aulas.Filas;
 
 public class FilaEstaticaCircularAula03 implements EnfileiravelAula03 {
 
-    //Variáveis de instância
-    private Object [] dados;
+    // Variáveis de instância
+    private Object[] dados;
     private int ponteiroInicio;
     private int ponteiroFim;
     private int quantidade;
@@ -22,7 +22,7 @@ public class FilaEstaticaCircularAula03 implements EnfileiravelAula03 {
     @Override
     public Object frente() {
         Object aux = null;
-        if(!estaVazia()) {
+        if (!estaVazia()) {
             aux = dados[ponteiroInicio];
         } else {
             System.out.println("A fila está vazia.");
@@ -32,8 +32,8 @@ public class FilaEstaticaCircularAula03 implements EnfileiravelAula03 {
 
     @Override
     public void enfileirar(Object dado) {
-        if(!estaCheia()) {
-            ponteiroFim = (ponteiroFim + 1) % 8;
+        if (!estaCheia()) {
+            ponteiroFim = avancar(ponteiroFim);
             dados[ponteiroFim] = dado;
             quantidade++;
         } else {
@@ -46,16 +46,17 @@ public class FilaEstaticaCircularAula03 implements EnfileiravelAula03 {
         Object aux = null;
         if (!estaVazia()) {
             aux = dados[ponteiroInicio];
-            ponteiroInicio = ((ponteiroInicio+1) % dados.length);
+            ponteiroInicio = avancar(ponteiroFim);
             quantidade--;
         } else {
             System.out.println("A fila está vazia.");
         }
         return aux;
     }
+
     @Override
     public void atualizarInicio(Object dado) {
-        if(!estaVazia()) {
+        if (!estaVazia()) {
             dados[ponteiroInicio] = dado;
         } else {
             System.err.println("A fila está vazia");
@@ -64,7 +65,7 @@ public class FilaEstaticaCircularAula03 implements EnfileiravelAula03 {
 
     @Override
     public void atualizarFim(Object dado) {
-        if(!estaVazia()) {
+        if (!estaVazia()) {
             dados[ponteiroFim] = dado;
         } else {
             System.err.println("A fila está vazia");
@@ -83,17 +84,26 @@ public class FilaEstaticaCircularAula03 implements EnfileiravelAula03 {
 
     @Override
     public String imprimir() {
+        int ponteiroAux = ponteiroInicio;
         String retorno = "[";
-        for(int i = ponteiroInicio; i <= quantidade + ponteiroInicio; i++) {
-            /*if(i == dados.length) {
-                i = 0;
-            }*/
-            if(i== (quantidade + ponteiroInicio) - 1) {
-                retorno += dados[i % dados.length]; //Resto da divisão do i pelo tamanho da lista dados.
+        for (int i = ponteiroInicio; i < quantidade + ponteiroInicio; i++) {
+            /*
+             * if(i == dados.length) {
+             * i = 0;
+             * }
+             */
+            if (i == (quantidade - 1)) {
+                retorno += dados[ponteiroAux]; // Resto da divisão do i pelo tamanho da lista dados.
+            } else {
+                retorno += dados[ponteiroAux] + ",";
             }
-            retorno += dados[i % dados.length] + ",";
+            ponteiroAux = avancar(ponteiroAux);
         }
         return retorno + "]";
     }
-    
+
+    private int avancar(int ponteiro) {
+        return (ponteiro + 1) % dados.length;
+    }
+
 }

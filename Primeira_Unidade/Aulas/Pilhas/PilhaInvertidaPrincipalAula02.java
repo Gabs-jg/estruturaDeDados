@@ -1,5 +1,6 @@
-package Pilhas;
-public class PilhaInvertidaPrincipal {
+package Primeira_Unidade.Aulas.Pilhas;
+
+public class PilhaInvertidaPrincipalAula02 {
     public static void main(String args[]) {
         EmpilhavelAula01 pilha = new PilhaEstaticaInvertidaAula02(7);
         pilha.empilhar("Instituto");
@@ -18,6 +19,6 @@ public class PilhaInvertidaPrincipal {
         pilha.atualizar("São Paulo");
         pilha.empilhar(pilha.desempilhar());
         pilha.empilhar(conteudo);
-        System.out.println("Pilha="+pilha.imprimir());
+        System.out.println("Pilha=" + pilha.imprimir());
     }
 }

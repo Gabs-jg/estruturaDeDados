@@ -1,0 +1,9 @@
+Toda pilha são listas
+Toda Fila são listas
+
+Inserir //C - insert
+anexar //C - append
+selecionar // - select
+selecionarTodos //R - selectAll
+update //U -
+apagar //D - delete
