@@ -2,28 +2,28 @@ package Primeira_Unidade.Aulas.Filas;
 
 public interface DuplamenteEnfileiravelAula03 {
 
-    void enfileirarInicio();
+    void enfileirarInicio(Object dado); 
 
-    void enfileirarFim(Object dado); // v
+    void enfileirarFim(Object dado); 
 
-    Object frente(); // v
+    Object frente(); 
 
-    Object tras();
+    Object tras(); 
 
-    void atualizarInicio(Object dado); // v
+    void atualizarInicio(Object dado);
 
-    void atualizarFim(Object dado); // v
+    void atualizarFim(Object dado);
 
-    Object desenfileirarInicio(); // v
+    Object desenfileirarInicio();
 
-    Object desenfileirarFim();
+    Object desenfileirarFim(); 
 
-    boolean estaCheia(); // v
+    boolean estaCheia(); 
 
-    boolean estaVazia(); // v
+    boolean estaVazia();
 
     String imprimirTrasFrente();
 
-    String imprimirFrenteTras(); // v
+    String imprimirFrenteTras();
 
 }
