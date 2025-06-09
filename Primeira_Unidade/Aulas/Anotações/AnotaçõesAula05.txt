@@ -2,13 +2,32 @@ Algoritmos de ordenação por troca
 Listas ordenadas
 Busca de dados
 
-Bubble Sort - pior - Compara todos os elementos 
-Selection Sort - menos pior - 
-InsertionSort - melhor de todos - Compara um elemento com o seu vizinho, quando o elemento encontra seu devido lugar os que vem antes
-                desse elemento já se encontra ordenados.
+Ordenações por troca:
 
-Quando é constante a ordem de complexidade é 1.
-O melhor é os algortimos que rodam n log n.
-log n é mais eficiente que n.
+Bubble Sort:
+Pior desempenho.
+Compara todos os elementos adjacentes várias vezes, "empurrando" o maior elemento para o final a cada passada.
 
-Fórmula Pa: an + a1 * (n/2).
+Selection Sort:
+Um pouco melhor que o Bubble Sort.
+Seleciona o menor elemento a cada passagem e o coloca na posição correta.
+
+Insertion Sort:
+Melhor entre os três nesse grupo.
+Insere o elemento na posição correta comparando com seus vizinhos anteriores.
+Os elementos anteriores ao inserido já estão ordenados.
+
+Observações:
+Quando a operação é constante, a complexidade é O(1).
+O ideal são algoritmos que tenham complexidade O(n log n), como o Merge Sort e o Quick Sort.
+Log n é mais eficiente que n em termos de crescimento da complexidade.
+
+Fórmula da Progressão Aritmética (PA):
+Soma dos n primeiros termos:
+Sₙ = (a₁ + aₙ) × n ÷ 2
+
+Onde:
+Sₙ = soma dos n primeiros termos
+a₁ = primeiro termo
+aₙ = último termo (n-ésimo)
+n = quantidade de termos
