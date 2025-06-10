@@ -129,7 +129,7 @@ public class PilhaDinamica<T> implements Empilhavel<T> {
         for(int i=0; i<quantidade; i++) {
             resultado += ponteiroAux.getDado();
             if(i != quantidade-1) {
-                resultado += ponteiroAux.getDado() + ", ";
+                resultado += ", ";
             }
             ponteiroAux = ponteiroAux.getAnterior();
         }
