@@ -2,6 +2,15 @@ import java.util.Scanner;
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 
+/**
+ * Classe principal que demonstra o uso da Pilha Dinâmica.
+ * Esta classe implementa um menu interativo que permite ao usuário testar todas as
+ * operações disponíveis na implementação da pilha.
+ * 
+ * @author João Gabriel Oliveira Magalhães.
+ * @version 1.0
+ * @since 2025-06-11
+ */
 public class PilhaDinamicaPrincipal {
     public static void main(String[] args) {
         Empilhavel<String> pilha = new PilhaDinamica<>(7);
