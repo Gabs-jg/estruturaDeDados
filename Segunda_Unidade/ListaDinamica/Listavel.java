@@ -78,6 +78,11 @@ public interface Listavel<T> {
     public T apagarPosEspecifica(int posicao);
 
     /**
+     * Método que apaga todos os elementos da lista.
+     */
+    public void limpar();
+
+    /**
      * Método que verifica se a lista está vazia.
      * @return true caso a lista esteja vazia, false caso o contrário.
      */

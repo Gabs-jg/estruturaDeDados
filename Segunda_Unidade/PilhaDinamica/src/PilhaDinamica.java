@@ -1,7 +1,5 @@
 import java.util.NoSuchElementException;
 
-
-
 public class PilhaDinamica<T> implements Empilhavel<T> {
 
     /** Quantidade de elementos na pilha. */
