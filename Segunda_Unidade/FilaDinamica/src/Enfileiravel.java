@@ -1,5 +1,3 @@
-import java.util.NoSuchElementException;
-
 /**
  * Interface que define as operações básicas de uma fila genérica.
  * Esta interface define os métodos que devem ser implementados
@@ -10,98 +8,36 @@ import java.util.NoSuchElementException;
  * @version 1.1
  */
 public interface Enfileiravel<T> {
-	
+
 	/**
-	 * Adiciona um elemento ao início da fila.
-	 *
-	 * @param dado o elemento a ser adicionado
-	 * @throws java.util.NoSuchElementException se a fila estiver cheia
+	 * Método que adiciona um elemento no final da fila.
+	 * @param elemento elemento a ser adicionado no final da fila.
 	 */
-	void enfileirarInicio(T dado);
-	
+	public void enfileirar(T elemento);
+
 	/**
-	 * Adiciona um elemento ao final da fila.
-	 *
-	 * @param dado o elemento a ser adicionado
-	 * @throws java.util.NoSuchElementException se a fila estiver cheia
+	 * Método que apaga e retorna o elemento do começo da fila.
+	 * @throws IndexOutOfBoundsException caso a fila esteja vazia.
+	 * @return
 	 */
-	void enfileirarFim(T dado);
-	
+	public T desenfileirar();
+
 	/**
-	 * Retorna o elemento do início da fila sem removê-lo.
-	 *
-	 * @return o elemento do início
-	 * @throws java.util.NoSuchElementException se a fila estiver vazia
+	 * Método que retorna o elemento do início da fila.
+	 * @throws IndexOutOfBoundsException caso a fila esteja vazia.
+	 * @return o elemento que está no início da fila.
 	 */
-	T frente();
-	
+	public T espiar();
+
 	/**
-	 * Retorna o elemento do final da fila sem removê-lo.
-	 *
-	 * @return o elemento do final
-	 * @throws java.util.NoSuchElementException se a fila estiver vazia
+	 * Método que verifica e retorna se a lista está vazia
+	 * @return true caso a fila esteja vazia, false caso contrário.
 	 */
-	T tras();
-	
+	public boolean estaVazia();
+
 	/**
-	 * Atualiza o elemento do início da fila.
-	 *
-	 * @param dado o novo elemento
-	 * @throws java.util.NoSuchElementException se a fila estiver vazia
+	 * Método que retorna uma string representando a lista.
+	 * @return string representando a fila.
 	 */
-	void atualizarInicio(T dado);
-	
-	/**
-	 * Atualiza o elemento do final da fila.
-	 *
-	 * @param dado o novo elemento
-	 * @throws java.util.NoSuchElementException se a fila estiver vazia
-	 */
-	void atualizarFim(T dado);
-	
-	/**
-	 * Remove e retorna o elemento do início da fila.
-	 *
-	 * @return o elemento removido do início
-	 * @throws java.util.NoSuchElementException se a fila estiver vazia
-	 */
-	T desenfileirarInicio();
-	
-	/**
-	 * Remove e retorna o elemento do final da fila.
-	 *
-	 * @return o elemento removido do final
-	 * @throws java.util.NoSuchElementException se a fila estiver vazia
-	 */
-	T desenfileirarFim();
-	
-	/**
-	 * Verifica se a fila está cheia.
-	 *
-	 * @return true se a fila estiver cheia, false caso contrário
-	 */
-	boolean estaCheia();
-	
-	/**
-	 * Verifica se a fila está vazia.
-	 *
-	 * @return true se a fila estiver vazia, false caso contrário
-	 */
-	boolean estaVazia();
-	
-	/**
-	 * Retorna uma representação em string da fila do final para o início.
-	 * Os elementos são separados por vírgula e delimitados por colchetes.
-	 *
-	 * @return string representando a fila do final para o início
-	 */
-	String imprimirDeTrasPraFrente();
-	
-	/**
-	 * Retorna uma representação em string da fila do início para o final.
-	 * Os elementos são separados por vírgula e delimitados por colchetes.
-	 *
-	 * @return string representando a fila do início para o final
-	 */
-	String imprimirDeFrentePraTras();
+	public String toString();
 }

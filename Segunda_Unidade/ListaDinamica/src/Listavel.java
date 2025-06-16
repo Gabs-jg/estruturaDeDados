@@ -84,7 +84,7 @@ public interface Listavel<T> {
     public void limpar();
 
     /**
-     * Método que verifica se a lista está vazia.
+     * Método que verifica e retorna se a lista está vazia.
      * @return true caso a lista esteja vazia, false caso o contrário.
      */
     public boolean estaVazia();
