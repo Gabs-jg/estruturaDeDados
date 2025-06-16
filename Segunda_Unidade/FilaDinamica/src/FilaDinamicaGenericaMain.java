@@ -3,8 +3,10 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 /**
- * Classe que demonstra o uso da fila dinâmica genérica através de uma interface de linha de comando.
- * Esta classe implementa um menu interativo que permite ao usuário testar todas as operações
+ * Classe que demonstra o uso da fila dinâmica genérica através de uma interface
+ * de linha de comando.
+ * Esta classe implementa um menu interativo que permite ao usuário testar todas
+ * as operações
  * disponíveis na fila dinâmica.
  *
  * @author João Gabriel Oliveira Magalhães

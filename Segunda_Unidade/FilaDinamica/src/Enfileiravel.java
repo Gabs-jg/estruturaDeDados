@@ -13,21 +13,21 @@ public interface Enfileiravel<T> {
 	 * Método que adiciona um elemento no final da fila.
 	 * @param elemento elemento a ser adicionado no final da fila.
 	 */
-	public void enfileirar(T elemento);
+	public void enfileirarFim(T elemento);
 
 	/**
-	 * Método que apaga e retorna o elemento do começo da fila.
-	 * @throws IndexOutOfBoundsException caso a fila esteja vazia.
-	 * @return
+	 * Método que apaga e retorna o elemento do início da fila.
+	 * @throws NoSuchElementException caso a fila esteja vazia.
+	 * @return o elemento que está no início da fila.
 	 */
-	public T desenfileirar();
+	public T desenfileirarInicio();
 
 	/**
 	 * Método que retorna o elemento do início da fila.
-	 * @throws IndexOutOfBoundsException caso a fila esteja vazia.
+	 * @throws NoSuchElementException caso a fila esteja vazia.
 	 * @return o elemento que está no início da fila.
 	 */
-	public T espiar();
+	public T espiarFim();
 
 	/**
 	 * Método que verifica e retorna se a lista está vazia

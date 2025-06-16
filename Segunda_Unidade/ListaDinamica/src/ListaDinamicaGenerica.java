@@ -27,7 +27,9 @@ public class ListaDinamicaGenerica<T> implements Listavel<T> {
     /** Constante que guarda uma String para ser usada em verificações se a lista está vazia */
     private final String ESTA_VAZIA = "Lista vazia.";
 
-    /** Construtor padrão onde seta o inicio e o ultimo como null e o tamanho como 0.  */
+    /**
+     * Construtor padrão onde seta o inicio e o ultimo como null e o tamanho como 0.
+     */
     public ListaDinamicaGenerica() {
         this.tamanho = 0;
         inicio = null;
