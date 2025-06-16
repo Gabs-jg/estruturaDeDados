@@ -4,7 +4,7 @@
  * que necessitam de nós com referências para o próximo e anterior.
  *
  * @param <T> o tipo do dado armazenado no nó
- * @author Cláudio Rodolfo Sousa de Oliveira
+ * @author João Gabriel Oliveira Magalhães
  * @version 1.1
  * @since 2025-06-04
  */

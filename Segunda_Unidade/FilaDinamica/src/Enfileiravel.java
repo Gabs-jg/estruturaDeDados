@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
  * por qualquer classe que represente uma estrutura de dados do tipo fila.
  *
  * @param <T> o tipo dos elementos armazenados na fila
- * @author Cláudio Rodolfo Sousa de Oliviera
+ * @author João Gabriel Oliveira Magalhães
  * @version 1.1
  */
 public interface Enfileiravel<T> {

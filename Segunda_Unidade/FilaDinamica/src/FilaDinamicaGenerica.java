@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
  * utilizando uma estrutura de nós duplamente encadeados.
  *
  * @param <T> o tipo dos elementos armazenados na fila
- * @author Cláudio Rodolfo Sousa de Oliveira
+ * @author João Gabriel Oliveira Magalhães
  * @version 1.1
  * @since 2025-06-04
  */

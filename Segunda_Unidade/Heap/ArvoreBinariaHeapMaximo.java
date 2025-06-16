@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
  * Esta classe implementa uma estrutura de dados heap usando um array para armazenar os elementos.
  * Em um heap máximo, o elemento pai é sempre maior ou igual aos seus filhos.
  * 
- * @author Cláudio Rodolfo Sousa de Oliveira
+ * @author João Gabriel Oliveira Magalhães
  * @version 1.0
  * @since 2025-06-04
  */

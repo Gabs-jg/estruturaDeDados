@@ -8,7 +8,7 @@ import java.util.NoSuchElementException;
  * uma árvore binária heap máximo. Permite ao usuário realizar todas as operações
  * disponíveis no heap através de um menu interativo.
  * 
- * @author Cláudio Rodolfo Sousa de Oliveira
+ * @author João Gabriel Oliveira Magalhães
  * @version 1.0
  * @since 2025-06-04
  */

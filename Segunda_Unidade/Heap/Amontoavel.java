@@ -4,7 +4,7 @@ package Segunda_Unidade.Heap;
  * Interface que define as operações básicas de uma estrutura de dados heap.
  * Um heap é uma árvore binária especial que satisfaz a propriedade de heap.
  * 
- * @author Cláudio Rodolfo Sousa de Oliveira
+ * @author João Gabriel Oliveira Magalhães
  * @version 1.0
  * @since 2025-06-04
  */
