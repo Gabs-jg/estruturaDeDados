@@ -71,5 +71,4 @@ public class NodoDuplo<T> {
     public void setProximo(NodoDuplo<T> proximo) {
         this.proximo = proximo;
     }
-
 }
