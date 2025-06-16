@@ -1,4 +1,4 @@
-package Segunda_Unidade.ListaDinamica;
+package Segunda_Unidade.ListaDinamica.src;
 /**
  * Classe que representa um nó duplamente encadeado.
  * Esta classe é utilizada para implementar estruturas de dados que

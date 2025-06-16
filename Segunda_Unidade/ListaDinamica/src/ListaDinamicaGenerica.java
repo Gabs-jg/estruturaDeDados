@@ -1,4 +1,5 @@
-package Segunda_Unidade.ListaDinamica;
+package Segunda_Unidade.ListaDinamica.src;
+
 /**
  * Implementação de uma classe de uma lista dinâmica duplamente encadeada.
  * Essa classe implementa uma lista que pode armazenar elementos de qualquer

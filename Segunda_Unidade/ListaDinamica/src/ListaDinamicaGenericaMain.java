@@ -1,4 +1,4 @@
-package Segunda_Unidade.ListaDinamica;
+package Segunda_Unidade.ListaDinamica.src;
 
 public class ListaDinamicaGenericaMain {
     public static void main(String[] args) {

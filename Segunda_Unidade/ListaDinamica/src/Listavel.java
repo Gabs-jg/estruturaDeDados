@@ -1,4 +1,5 @@
-package Segunda_Unidade.ListaDinamica;
+package Segunda_Unidade.ListaDinamica.src;
+
 /**
  * Interface que define as operações básicas de uma lista dinâmica.
  * Esta interface define os métodos que devem ser implementados por 
