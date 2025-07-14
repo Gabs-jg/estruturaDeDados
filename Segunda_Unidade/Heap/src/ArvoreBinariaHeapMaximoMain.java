@@ -1,4 +1,4 @@
-package Segunda_Unidade.Heap;
+package Segunda_Unidade.Heap.src;
 
 import java.util.Scanner;
 import java.util.NoSuchElementException;

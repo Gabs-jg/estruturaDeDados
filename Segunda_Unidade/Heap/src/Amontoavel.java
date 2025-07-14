@@ -1,4 +1,4 @@
-package Segunda_Unidade.Heap;
+package Segunda_Unidade.Heap.src;
 
 /**
  * Interface que define as operações básicas de uma estrutura de dados heap.
