@@ -1,5 +1,3 @@
-package Terceira_Unidade.AVLGenerica.src;
-
 /**
  * Implementação de uma árvore AVL genérica.
  * Garante balanceamento automático após inserções e remoções.

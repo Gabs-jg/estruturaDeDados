@@ -1,5 +1,3 @@
-package Terceira_Unidade.AVLGenerica.src;
-
 import java.util.Scanner;
 
 /**

@@ -1,5 +1,3 @@
-package Terceira_Unidade.AVLGenerica.src;
-
 /**
  * Representa um nó de uma árvore binária com referência ao genitor (pai),
  * ao filho esquerdo, ao filho direito e à sua altura.

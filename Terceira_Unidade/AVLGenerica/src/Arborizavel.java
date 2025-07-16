@@ -1,5 +1,3 @@
-package Terceira_Unidade.AVLGenerica.src;
-
 /**
  * Interface que define operações básicas para uma estrutura de dados
  * baseada em árvores binárias.
