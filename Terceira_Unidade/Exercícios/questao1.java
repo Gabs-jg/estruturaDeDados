@@ -5,12 +5,11 @@ public class questao1 {
         if (raiz == null) {
             return 0;
         }
+        // Pós-ordem: esquerda → direita → nó
+        int totalEsquerda = contarNos(raiz.esquerda);
+        int totalDireita = contarNos(raiz.direita);
+        return 1 + totalEsquerda + totalDireita;
     }
-
-    // Pós-ordem: esquerda → direita → nó
-    int totalEsquerda = contarNos(raiz.esquerda);
-    int totalDireita = contarNos(raiz.direita);
-    return 1+totalEsquerda+totalDireita;
 
     public static void main(String[] args) {
         No raiz = new No(1);
