@@ -198,7 +198,33 @@ public class AVLTest {
             assertTrue(emOrdem.contains(String.valueOf(i)));
         }
     }
+    @Test
+    public void testLimparRemoveTodosElementos() {
+        avl.inserir(10);
+        avl.inserir(20);
+        avl.inserir(5);
+        avl.inserir(15);
+        avl.inserir(25);
 
+        // Verifica que elementos existem antes de limpar
+        assertTrue(avl.existe(10));
+        assertTrue(avl.existe(20));
+        assertTrue(avl.existe(5));
+        assertTrue(avl.existe(15));
+        assertTrue(avl.existe(25));
+
+        avl.limpar();
+
+        // Após limpar, nenhum elemento deve existir
+        assertFalse(avl.existe(10));
+        assertFalse(avl.existe(20));
+        assertFalse(avl.existe(5));
+        assertFalse(avl.existe(15));
+        assertFalse(avl.existe(25));
+
+        // Impressão deve ser vazia
+        assertEquals("[]", avl.imprimirEmOrdem());
+    }
     // Método auxiliar para contar ocorrências de um valor na árvore
     private int contarOcorrencias(int valor) {
         String emOrdem = avl.imprimirEmOrdem();
