@@ -40,6 +40,16 @@ Durante o semestre de 2025.1, as atividades desenvolvidas,os conteúdos abordado
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
  />
 
+ 
+<img
+    align="left"
+    alt="RUST"
+    title="Rust"
+    height="70"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" 
+/>
+          
+
 <br>
 </br>
 <br>
@@ -50,3 +60,5 @@ Durante o semestre de 2025.1, as atividades desenvolvidas,os conteúdos abordado
 
  ## 📚 Recursos extras:
  <a href="https://www.ev.org.br/trilhas-de-conhecimento/linguagem-de-programacao-python" target="_blank">Curso Online de Python - Fundação Bradesco</a>
+
+ <a href="https://loiane.training/curso/estrutura-de-dados" target="_blank">Curso Online de Estrutura de Dados - Loiane Training</a>
