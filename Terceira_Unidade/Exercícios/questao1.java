@@ -1,6 +1,16 @@
 package Terceira_Unidade.Exercícios;
 
+/**
+ * Classe principal para contar o número de nós em uma árvore binária.
+ * @author João Gabriel Oliveira Magalhães
+ * @version 1.0
+ */
 public class questao1 {
+    /**
+     * Conta o número de nós de uma árvore binária usando pós-ordem.
+     * @param raiz Nó raiz da árvore.
+     * @return Número total de nós.
+     */
     public static int contarNos(No raiz) {
         if (raiz == null) {
             return 0;
@@ -11,6 +21,10 @@ public class questao1 {
         return 1 + totalEsquerda + totalDireita;
     }
 
+    /**
+     * Método principal para testar a contagem de nós.
+     * Cria uma árvore binária e exibe o total de nós.
+     */
     public static void main(String[] args) {
         No raiz = new No(1);
         raiz.esquerda = new No(2);
@@ -24,11 +38,17 @@ public class questao1 {
     }
 }
 
-// Classe que representa um nó da árvore
+/**
+ * Classe que representa um nó da árvore binária.
+ */
 class No {
-    int valor;
-    No esquerda, direita;
+    int valor;         // Valor armazenado no nó
+    No esquerda, direita; // Referências para os filhos esquerdo e direito
 
+    /**
+     * Construtor do nó.
+     * @param valor Valor a ser armazenado.
+     */
     public No(int valor) {
         this.valor = valor;
         esquerda = direita = null;
