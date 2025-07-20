@@ -1,7 +1,15 @@
 package Terceira_Unidade.Exercícios;
 
+/**
+ * Classe principal para contar o número de nós folha em uma árvore binária.
+ */
 public class questao4 {
-    // Método recursivo para contar nós folhas
+    /**
+     * Conta o número de nós folha em uma árvore binária de forma recursiva.
+     * Um nó folha é aquele que não possui filhos.
+     * @param raiz Nó raiz da árvore.
+     * @return Número total de nós folha.
+     */
     public static int contarNosFolha(No raiz) {
         if (raiz == null) {
             return 0;
@@ -12,6 +20,10 @@ public class questao4 {
         return contarNosFolha(raiz.esquerda) + contarNosFolha(raiz.direita);
     }
 
+    /**
+     * Método principal para testar a contagem de nós folha.
+     * Cria uma árvore binária e exibe o total de nós folha.
+     */
     public static void main(String[] args) {
         No raiz = new No(1);
         raiz.esquerda = new No(2);
@@ -25,10 +37,17 @@ public class questao4 {
     }
 }
 
+/**
+ * Classe que representa um nó da árvore binária.
+ */
 class No {
-    int valor;
-    No esquerda, direita;
+    int valor;             // Valor armazenado no nó
+    No esquerda, direita;  // Referências para os filhos esquerdo e direito
 
+    /**
+     * Construtor do nó.
+     * @param valor Valor a ser armazenado.
+     */
     public No(int valor) {
         this.valor = valor;
         esquerda = direita = null;
