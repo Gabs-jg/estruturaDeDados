@@ -14,6 +14,18 @@ public class questao5 {
         // Se tiver pelo menos um filho, conta 1 + filhos internos
         return 1 + contarNosInternos(raiz.esquerda) + contarNosInternos(raiz.direita);
     }
+
+    public static void main(String[] args) {
+        No raiz = new No(1);
+        raiz.esquerda = new No(2);
+        raiz.direita = new No(3);
+        raiz.esquerda.esquerda = new No(4);
+        raiz.esquerda.direita = new No(5);
+        raiz.direita.direita = new No(6);
+
+        int internos = contarNosInternos(raiz);
+        System.out.println("Total de nós internos: " + internos);  // Saída esperada: 3 (nós 1, 2, 3)
+    }
 }
 
 class No {
