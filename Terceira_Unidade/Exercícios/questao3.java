@@ -1,7 +1,18 @@
 package Terceira_Unidade.Exercícios;
 
+/**
+ * Classe principal para calcular a altura de uma árvore binária.
+ * @author João Gabriel Oliveira Magalhães
+ * @version 1.0
+ */
 public class questao3 {
-    // Método recursivo para calcular altura da árvore
+    /**
+     * Calcula a altura de uma árvore binária de forma recursiva.
+     * A altura é definida como o número de níveis da árvore.
+     * Uma árvore vazia tem altura 0.
+     * @param raiz Nó raiz da árvore.
+     * @return Altura da árvore.
+     */
     public static int calcularAltura(No raiz) {
         if (raiz == null) {
             return 0; // Árvore vazia tem altura 0
@@ -12,6 +23,10 @@ public class questao3 {
         return 1 + Math.max(alturaEsquerda, alturaDireita);
     }
 
+    /**
+     * Método principal para testar o cálculo da altura.
+     * Cria uma árvore binária e exibe sua altura.
+     */
     public static void main(String[] args) {
         No raiz = new No(1);
         raiz.esquerda = new No(2);
@@ -25,10 +40,17 @@ public class questao3 {
     }
 }
 
+/**
+ * Classe que representa um nó da árvore binária.
+ */
 class No {
-    int valor;
-    No esquerda, direita;
+    int valor;         // Valor armazenado no nó
+    No esquerda, direita; // Referências para os filhos esquerdo e direito
 
+    /**
+     * Construtor do nó.
+     * @param valor Valor a ser armazenado.
+     */
     public No(int valor) {
         this.valor = valor;
         esquerda = direita = null;
