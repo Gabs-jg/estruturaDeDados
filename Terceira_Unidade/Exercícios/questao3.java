@@ -11,6 +11,18 @@ public class questao3 {
 
         return 1 + Math.max(alturaEsquerda, alturaDireita);
     }
+
+    public static void main(String[] args) {
+        No raiz = new No(1);
+        raiz.esquerda = new No(2);
+        raiz.direita = new No(3);
+        raiz.esquerda.esquerda = new No(4);
+        raiz.esquerda.direita = new No(5);
+        raiz.direita.esquerda = new No(6);
+
+        int altura = calcularAltura(raiz);
+        System.out.println("Altura da árvore: " + altura); // Saída esperada: 3
+    }
 }
 
 class No {
@@ -22,4 +34,3 @@ class No {
         esquerda = direita = null;
     }
 }
-
